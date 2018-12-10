@@ -1,0 +1,13 @@
+name: advent8
+version: 0.1.0
+
+authors:
+  - juumixx <juumixx@gmail.com>
+
+targets:
+  advent8:
+    main: src/advent8.cr
+
+crystal: 0.27.0
+
+license: MIT

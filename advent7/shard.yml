@@ -1,0 +1,13 @@
+name: advent7
+version: 0.1.0
+
+authors:
+  - juumixx <juumixx@gmail.com>
+
+targets:
+  advent7:
+    main: src/advent7.cr
+
+crystal: 0.27.0
+
+license: MIT

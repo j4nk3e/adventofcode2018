@@ -1,0 +1,13 @@
+name: advent6
+version: 0.1.0
+
+authors:
+  - juumixx <juumixx@gmail.com>
+
+targets:
+  advent6:
+    main: src/advent6.cr
+
+crystal: 0.27.0
+
+license: MIT

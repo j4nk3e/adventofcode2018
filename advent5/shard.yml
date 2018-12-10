@@ -1,0 +1,13 @@
+name: advent5
+version: 0.1.0
+
+authors:
+  - juumixx <juumixx@gmail.com>
+
+targets:
+  advent5:
+    main: src/advent5.cr
+
+crystal: 0.27.0
+
+license: MIT
