@@ -1,0 +1,13 @@
+name: advent4
+version: 0.1.0
+
+authors:
+  - Julian <julian.koepke@gmail.com>
+
+targets:
+  advent4:
+    main: src/advent4.cr
+
+crystal: 0.27.0
+
+license: MIT
