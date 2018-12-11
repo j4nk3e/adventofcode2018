@@ -1,0 +1,13 @@
+name: advent11
+version: 0.1.0
+
+authors:
+  - Julian <julian.koepke@gmail.com>
+
+targets:
+  advent11:
+    main: src/advent11.cr
+
+crystal: 0.27.0
+
+license: MIT
