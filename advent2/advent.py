@@ -1,4 +1,4 @@
-f=open("advent")
+f=open("input")
 ids=f.readlines()
 ids.sort()
 
@@ -10,4 +10,8 @@ for i in range(len(ids)-1):
         if a[c] != b[c]:
             diff+=1
     if diff==1:
-        print a, b
+        r = ""
+        for i in range(len(a)):
+            if a[i]==b[i]:
+                r+=a[i]
+        print r
