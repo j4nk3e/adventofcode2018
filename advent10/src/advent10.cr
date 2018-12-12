@@ -45,7 +45,7 @@ module Advent10
 
   def print(points : Array(Point))
     x_min = points.min_by { |p| p.x }.x
-    x_max = points.max_by { |p| p.x }.x+15
+    x_max = points.max_by { |p| p.x }.x
     y_min = points.min_by { |p| p.y }.y
     y_max = points.max_by { |p| p.y }.y
     a = area(points)
@@ -56,22 +56,19 @@ module Advent10
       row = p.y - y_min
       code[col+row*len] = '#'
     end
-    (y_max - y_min + 1).times do |i|
+    (y_max - y_min).times do |i|
       puts "#{i} #{code[(len*i)..(len*(i + 1))].join("")}"
     end
   end
 
-  generation = 0
   while true
     a = area(points)
     if a < 10000
       print points
-      puts generation
     end
     points.each do |p|
       p.move
     end
-    generation += 1
     b = area(points)
     if b > a
       break
