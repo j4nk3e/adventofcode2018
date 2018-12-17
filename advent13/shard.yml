@@ -1,0 +1,13 @@
+name: advent13
+version: 0.1.0
+
+authors:
+  - juumixx <juumixx@gmail.com>
+
+targets:
+  advent13:
+    main: src/advent13.cr
+
+crystal: 0.27.0
+
+license: MIT
